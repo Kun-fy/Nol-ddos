@@ -7,6 +7,20 @@ import time
 import random
 import socket
 
+os.system("clear")
+print("""
+╭╮        ╭─╮
+││      ╭╯╭╯
+││    ╭╯╭╯
+││  ╭╯╭╯
+││╭╯╭╯
+│╰╯  ╰─╮
+│╰───╮│
+│╰───╯│
+│        │
+╰─────╯
+ """)
+
 if len(sys.argv) < 4:
     print("UDP TCP SYN Flood")
     sys.exit("Usage: python "+sys.argv[0]+" [ip] [port] [size]")
