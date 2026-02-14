@@ -25,7 +25,7 @@ while attemps < 100:
     username = input("\033[32mJenenge scrip opotoh??:\033[30m")
     password = input("\033[32mGemboke piro?:\033[30m")
 
-    if username == 'callandra' and password == 'callandra':
+    if username == 'callandra' and password == '1sampe6':
         print("\033[32m⟩⟩ BLACK ARMY AREA \033[0m")
         break
     else:
