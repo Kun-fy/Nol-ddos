@@ -7,6 +7,7 @@ import time
 import random
 import socket
 
+attemps = 0
 os.system("clear")
 print("""
             █┐ █┐                   \033[38;5;39m█\033[33m┐
