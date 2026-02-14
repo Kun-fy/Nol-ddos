@@ -23,7 +23,7 @@ print("""
  """)
 while attemps < 100:
     username = input("\033[48;5;7m\033[31mScrip iki jenenge opo?\033[0m:\033[30m")
-    password = input("\033[48;5;7m\033[31mGemboke piro?\033[0m:\033[30m")
+    password = input("\033[48;5;7m\033[31mGemboke piro?. . . . .\033[0m:\033[30m")
 
     if username == 'callandra' and password == '1sampe6':
         print("\033[32m⟩⟩ BLACK ARMY AREA \033[0m")
