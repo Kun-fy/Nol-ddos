@@ -27,8 +27,8 @@ class syn(threading.Thread):
         for i in range(self.packets):
             try:
                 self.syn.connect((self.ip, self.port))
-                print(f"\033[38;5;220m" +ip+ " \033[38;5;37m" +str(self)+ "\033[30m 80")
-                print(f"\033[38;5;154m" +ip+ " \033[37m" +str(self)+ "\033[34m 80")
+                print(f"\033[38;5;220m" +ip+ " \033[38;5;37m" +str(self)+ "\033[31m80")
+                print(f"\033[38;5;154m" +ip+ " \033[37m" +str(self)+ "\033[34m80")
             except:
                 pass
 
